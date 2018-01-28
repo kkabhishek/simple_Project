@@ -11,7 +11,7 @@ import javax.servlet.annotation.WebServlet;
 
 import org.spring.mvcApp.Model.Service.Service_Class;
 @WebServlet(urlPatterns="/mvc")
-public class Type_1 extends GenericServlet
+public class Type1 extends GenericServlet
 {
 	@Override
 	public void service(ServletRequest req, ServletResponse resp)
