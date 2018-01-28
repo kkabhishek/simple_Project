@@ -23,6 +23,7 @@ public class Type1 extends GenericServlet
 		
 		Service_Class sc = new Service_Class();
 		sc.generateAccountNo(Id,Name);
+		System.out.println();
 	}
 	
 }
