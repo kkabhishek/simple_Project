@@ -13,17 +13,6 @@ import org.spring.mvcApp.Model.Service.Service_Class;
 @WebServlet(urlPatterns="/mvc")
 public class Type1 extends GenericServlet
 {
-	@Override
-	public void service(ServletRequest req, ServletResponse resp)
-			throws ServletException, IOException 
-	{
-		String id_1 = req.getParameter("i");
-		int Id = Integer.parseInt(id_1);
-		String Name = req.getParameter("nm");
-		
-		Service_Class sc = new Service_Class();
-		sc.generateAccountNo(Id,Name);
-		System.out.println();
-	}
+
 	
 }
